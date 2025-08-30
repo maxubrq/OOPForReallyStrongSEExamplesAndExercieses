@@ -1,6 +1,6 @@
 import { CoffeeOrder, Money, PricingPolicyWithDiscount } from '../domain/coffee_order';
 import { NoDiscount } from '../domain/coffee_order/policy';
-import { CoffeeOrderDTO, MoneyDTO } from './dto';
+import { CoffeeOrderDTO, MoneyDTO } from './order_coffee/dto';
 
 export const MoneyMapper = {
   toDTO(m: Money): MoneyDTO {

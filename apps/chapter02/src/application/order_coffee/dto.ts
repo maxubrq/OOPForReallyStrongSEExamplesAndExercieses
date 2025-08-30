@@ -1,4 +1,4 @@
-import { BaseDrink, Currency, Size, Topping } from '../domain/coffee_order';
+import { BaseDrink, Currency, Size, Topping } from '../../domain/coffee_order';
 
 export type MoneyDTO = { amount: number; currency: Currency };
 
